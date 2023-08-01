@@ -37,7 +37,8 @@
     "url": "https://github.com/stdlib-js/stdlib/issues"
   },
   "dependencies": {
-    "@stdlib/utils-property-descriptor-in": "^0.0.7"
+    "@stdlib/utils-property-descriptor-in": "^0.0.7",
+    "@stdlib/error-tools-fmtprodmsg": "^0.0.2"
   },
   "devDependencies": {
     "@stdlib/assert-is-boolean": "^0.0.8",
