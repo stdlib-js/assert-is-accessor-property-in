@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/assert-is-accessor-property-in",
-  "version": "0.0.7",
+  "version": "0.1.0",
   "description": "Test if an object's own or inherited property has an accessor descriptor.",
   "license": "Apache-2.0",
   "author": {
@@ -37,12 +37,12 @@
     "url": "https://github.com/stdlib-js/stdlib/issues"
   },
   "dependencies": {
-    "@stdlib/utils-property-descriptor-in": "^0.0.7"
+    "@stdlib/utils-property-descriptor-in": "^0.1.0"
   },
   "devDependencies": {
-    "@stdlib/assert-is-boolean": "^0.0.8",
-    "@stdlib/bench": "^0.0.12",
-    "@stdlib/utils-define-property": "^0.0.9",
+    "@stdlib/assert-is-boolean": "^0.1.0",
+    "@stdlib/bench": "^0.1.0",
+    "@stdlib/utils-define-property": "^0.1.0",
     "tape": "git+https://github.com/kgryte/tape.git#fix/globby",
     "istanbul": "^0.4.1",
     "tap-min": "git+https://github.com/Planeshifter/tap-min.git"
