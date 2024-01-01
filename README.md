@@ -35,30 +35,14 @@ limitations under the License.
 
 > Test if an object's own or inherited property has an accessor descriptor.
 
-<section class="installation">
 
-## Installation
-
-```bash
-npm install @stdlib/assert-is-accessor-property-in
-```
-
-Alternatively,
-
--   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm` branch][esm-url].
--   If you are using Deno, visit the [`deno` branch][deno-url].
--   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd` branch][umd-url].
-
-The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
-
-</section>
 
 <section class="usage">
 
 ## Usage
 
 ```javascript
-var isAccessorPropertyIn = require( '@stdlib/assert-is-accessor-property-in' );
+import isAccessorPropertyIn from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-accessor-property-in@esm/index.mjs';
 ```
 
 #### isAccessorPropertyIn( value, property )
@@ -68,7 +52,7 @@ Returns a `boolean` indicating if an object's own or inherited `property` has an
 <!-- eslint-disable no-restricted-syntax -->
 
 ```javascript
-var defineProperty = require( '@stdlib/utils-define-property' );
+import defineProperty from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-define-property@esm/index.mjs';
 
 var bool;
 var obj;
@@ -126,7 +110,7 @@ bool = isAccessorPropertyIn( obj, 'accessor' );
 -   Non-symbol property arguments are coerced to `strings`.
 
     ```javascript
-    var defineProperty = require( '@stdlib/utils-define-property' );
+    import defineProperty from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-define-property@esm/index.mjs';
 
     var obj = {};
 
@@ -156,8 +140,13 @@ bool = isAccessorPropertyIn( obj, 'accessor' );
 
 <!-- eslint no-undef: "error" -->
 
-```javascript
-var isAccessorPropertyIn = require( '@stdlib/assert-is-accessor-property-in' );
+```html
+<!DOCTYPE html>
+<html lang="en">
+<body>
+<script type="module">
+
+import isAccessorPropertyIn from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-accessor-property-in@esm/index.mjs';
 
 var bool = isAccessorPropertyIn( [ 'a' ], 'length' );
 // returns false
@@ -185,6 +174,10 @@ bool = isAccessorPropertyIn( null, 'a' );
 
 bool = isAccessorPropertyIn( void 0, 'a' );
 // returns false
+
+</script>
+</body>
+</html>
 ```
 
 </section>
@@ -216,7 +209,7 @@ bool = isAccessorPropertyIn( void 0, 'a' );
 
 ## Notice
 
-This package is part of [stdlib][stdlib], a standard library for JavaScript and Node.js, with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
+This package is part of [stdlib][stdlib], a standard library with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
 
 For more information on the project, filing bug reports and feature requests, and guidance on how to develop [stdlib][stdlib], see the main project [repository][stdlib].
 
@@ -278,11 +271,11 @@ Copyright &copy; 2016-2024. The Stdlib [Authors][stdlib-authors].
 
 <!-- <related-links> -->
 
-[@stdlib/assert/has-property]: https://github.com/stdlib-js/assert-has-property
+[@stdlib/assert/has-property]: https://github.com/stdlib-js/assert-has-property/tree/esm
 
-[@stdlib/assert/is-accessor-property]: https://github.com/stdlib-js/assert-is-accessor-property
+[@stdlib/assert/is-accessor-property]: https://github.com/stdlib-js/assert-is-accessor-property/tree/esm
 
-[@stdlib/assert/is-data-property-in]: https://github.com/stdlib-js/assert-is-data-property-in
+[@stdlib/assert/is-data-property-in]: https://github.com/stdlib-js/assert-is-data-property-in/tree/esm
 
 <!-- </related-links> -->
 
