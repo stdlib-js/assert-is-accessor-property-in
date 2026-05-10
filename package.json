@@ -40,6 +40,7 @@
     "@stdlib/utils-property-descriptor-in": "^0.2.3"
   },
   "devDependencies": {
+    "@stdlib/array-zeros": "^0.2.3",
     "@stdlib/assert-is-boolean": "^0.2.3",
     "@stdlib/utils-define-property": "^0.2.5",
     "tape": "git+https://github.com/kgryte/tape.git#fix/globby",
